@@ -1,0 +1,4 @@
+scenario_growth_pct,adjusted_claims,new_claim_rate_pct,incremental_claims
+10.0,33000.0,3.17,3000.0
+20.0,36000.0,3.46,6000.0
+30.0,39000.0,3.75,9000.0
