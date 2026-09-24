@@ -1,47 +1,200 @@
-# Apple Retail Sales & Warranty Analytics
+<div align="center">
 
-![Project Banner](screenshots/project_banner.png)
+<img src="screenshots/project_banner.png" alt="Retail Sales and Warranty Analytics banner" width="100%">
 
-## Overview
+# 📊 Consumer Electronics Retail Sales & Warranty Analytics
 
-This project analyzes **1 million+ Apple retail sales records** using PostgreSQL to uncover insights into store performance, product sales, pricing, sales trends, and warranty claims.
+<p align="center">
+  <img src="https://img.shields.io/badge/Domain-Retail%20Analytics-0EA5E9?style=for-the-badge&logo=database&logoColor=white" alt="Retail Analytics">
+  <img src="https://img.shields.io/badge/Skills-SQL%20%2B%20Python-FFB000?style=for-the-badge&logo=python&logoColor=white" alt="SQL + Python">
+  <img src="https://img.shields.io/badge/Focus-Actuarial%20Analysis-10B981?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Actuarial Analysis">
+  <img src="https://img.shields.io/badge/Portfolio-Decision%20Support-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Decision Support">
+</p>
 
-The project focuses on building a relational database, validating data quality, performing exploratory data analysis (EDA), solving business problems using SQL, and improving query performance for large datasets.
+<p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/SQL-0EA5E9?style=flat-square&logo=database&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Data%20Analysis-10B981?style=flat-square&logo=chartdotjs&logoColor=white" alt="Data Analysis">
+</p>
 
-## Dataset
+<p align="center">
+  <a href="https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics"><img src="https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white" alt="View Repository"></a>
+  <a href="https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/tree/main/sql"><img src="https://img.shields.io/badge/Browse-SQL-2563EB?style=flat-square&logo=postgresql&logoColor=white" alt="Browse SQL"></a>
+  <a href="https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/tree/main/screenshots"><img src="https://img.shields.io/badge/View-Screenshots-0F766E?style=flat-square&logo=files&logoColor=white" alt="View Screenshots"></a>
+</p>
 
-- **Source:** [Kaggle — Apple_Retail_Sales_Dataset](https://www.kaggle.com/datasets/amangarg08/apple-retail-sales-dataset)
-- **Sales records:** 1,040,200 transactions / 5,721,344 total units sold
-- **Time period:** Multiple years (through 2024)
-- **Geographical coverage:** Multiple countries
-- **Database:** PostgreSQL
+<p align="center">
+  <strong>Retail sales intelligence, product performance, warranty behavior, and actuarial-style risk analysis</strong>
+</p>
 
-The dataset contains information about stores, products, product categories, sales transactions, and warranty claims. It is a retail-style dataset used for SQL practice and is not official Apple sales data.
+</div>
 
-## Project Objectives
+---
 
-- Design and implement a relational PostgreSQL database
-- Load and validate 1 million+ sales records
-- Perform exploratory data analysis (EDA)
-- Run data quality checks before trusting downstream analysis
-- Analyze sales and product performance
-- Investigate warranty claim behavior
-- Apply advanced SQL techniques to solve business problems
-- Improve query performance using indexing
+## 🧭 Project at a glance
 
-## Database Schema
+<table>
+<tr>
+<td width="50%" valign="top">
 
-The project contains five related tables:
+<h3>💼 Why This Project</h3>
+
+<p>This project combines SQL, data analysis, and business-focused problem solving using a practical retail analytics case study.</p>
+
+<p><strong>The project covers:</strong></p>
+
+<ul>
+<li>Database setup, data validation, and exploration</li>
+<li>SQL-based analysis of products, stores, sales, and performance</li>
+<li>Identification of product and store-level trends</li>
+<li>Warranty and risk-oriented analysis</li>
+<li>Portfolio-level comparison and segmentation</li>
+<li>Generation of analysis outputs for reporting</li>
+<li>Translation of data findings into practical business insights</li>
+</ul>
+
+<p>The analysis is designed to demonstrate how structured data can be used to understand retail performance, identify operational patterns, and support data-driven decision-making.</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🎓 What This Project Demonstrates</h3>
+
+<p>The project demonstrates practical experience with:</p>
+
+<ul>
+<li>Relational databases and SQL</li>
+<li>Data cleaning and validation</li>
+<li>Exploratory and business analysis</li>
+<li>Performance measurement</li>
+<li>Risk-oriented analysis</li>
+<li>Data interpretation and communication</li>
+<li>Turning analytical results into actionable insights</li>
+</ul>
+
+<p>The goal is to present an end-to-end analytics workflow that is reproducible, understandable, and relevant to real-world business scenarios.</p>
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+<h3>🔄 Project Scope</h3>
+
+<p>Rather than focusing only on SQL queries, this project follows a complete analytics workflow:</p>
+
+<p align="center"><strong>Data → Validation → SQL Analysis → Business Insights → Reporting</strong></p>
+
+<p>It also incorporates a risk-aware perspective through warranty and portfolio analysis, providing an additional dimension to the retail performance analysis.</p>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧭 Quick access
+
+[Overview](#-overview) • [Dataset](#-dataset) • [Project scope](#-project-scope) • [SQL analysis](#-sql-analysis) • [Python analysis](#-python-analysis) • [Business questions](#-business-questions-solved) • [Key findings](#-key-findings) • [Run project](#-run-the-project) • [Project files](#-project-structure)
+
+<p align="center">
+  <a href="#-overview"><img src="https://img.shields.io/badge/Overview-0EA5E9?style=for-the-badge" alt="Overview"></a>
+  <a href="#-dataset"><img src="https://img.shields.io/badge/Dataset-0891B2?style=for-the-badge" alt="Dataset"></a>
+  <a href="#-sql-analysis"><img src="https://img.shields.io/badge/SQL%20Analysis-2563EB?style=for-the-badge" alt="SQL Analysis"></a>
+  <a href="#-python-analysis"><img src="https://img.shields.io/badge/Python%20Analysis-7C3AED?style=for-the-badge" alt="Python Analysis"></a>
+  <a href="#-key-findings"><img src="https://img.shields.io/badge/Key%20Findings-10B981?style=for-the-badge" alt="Key Findings"></a>
+  <a href="#-run-the-project"><img src="https://img.shields.io/badge/Run%20Project-475569?style=for-the-badge" alt="Run Project"></a>
+</p>
+
+---
+
+## 📌 Overview
+
+This project is a retail analytics and actuarial-style risk analysis portfolio project built around a large consumer electronics dataset. It combines data validation, SQL-based business analysis, and Python-based risk and trend analysis to turn raw transaction data into a structured business and risk story.
+
+The project covers the full analytics workflow:
+
+- load and validate a large dataset
+- model the schema and relationships
+- explore product and store performance
+- investigate warranty claim behavior
+- compare segments using portfolio benchmarks
+- identify operational and risk-based opportunities
+- create a polished, business-ready analytics package
+
+---
+
+## 💡 Why this project matters
+
+This project helps to answer the important questions like:
+
+- Which products and categories are driving revenue?
+- Which segments show elevated claim experience relative to the portfolio benchmark?
+- Which stores or countries require operational review?
+- Are claims concentrated in specific lifecycle stages or timing windows?
+- What happens under moderate adverse claim scenarios?
+
+---
+
+## 🗂️ Dataset
+
+The project uses a retail-style Apple electronics dataset containing product, sales, store, and warranty information.
+
+### 📋 Dataset details
+
+- Source: Kaggle retail sales dataset
+- Total sales transactions: 1,040,200
+- Total units sold: 5,721,344
+- Time period: multi-year sales history through 2024
+- Geography: multiple countries
+- Data types: stores, category, products, sales, warranty claims
+
+### 📈 Portfolio baseline
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Total%20Sales-1%2C040%2C200-0EA5E9?style=for-the-badge" alt="Total sales 1,040,200">
+  <img src="https://img.shields.io/badge/Total%20Warranty%20Claims-30%2C000-7C3AED?style=for-the-badge" alt="Total warranty claims 30,000">
+  <img src="https://img.shields.io/badge/Overall%20Claim%20Rate-2.88%25-10B981?style=for-the-badge" alt="Overall claim rate 2.88%">
+</p>
+
+---
+
+## 🎯 Project scope
+
+The project has two complementary layers:
+
+### 🛒 1) Core retail analytics project
+- database build and validation
+- EDA and KPI review
+- store, product, and sales analysis
+- business question solving with SQL
+
+### 🛡️ 2) Actuarial analysis extension
+- claim-rate benchmarking
+- exposure-based comparison
+- lifecycle and claim timing review
+- risk prioritization and stress-testing
+- Python-generated analysis outputs for portfolio reporting
+
+---
+
+## 🗃️ Database design
+
+The project uses a relational schema with five core tables:
 
 | Table | Description |
 |---|---|
-| `stores` | Store information including store name, city, and country |
-| `category` | Product category information |
-| `products` | Product details, categories, launch dates, and prices |
-| `sales` | Sales transactions, stores, products, and units sold |
-| `warranty` | Warranty claims, claim dates, and repair status |
+| `stores` | Store information including country and location details |
+| `category` | Product category names and structure |
+| `products` | Product details, pricing, and launch date |
+| `sales` | Transaction-level sales data |
+| `warranty` | Claim records and claim dates |
 
-### Table Relationships
+### 🔗 Relationship model
 
 ```text
 stores
@@ -51,136 +204,117 @@ stores
          └── warranty
 ```
 
-## How to Reproduce This Project
+This structure allows business questions to be answered through joins, segmentation, aggregation, and time-based analysis.
 
-1. Create a PostgreSQL database, e.g. `apple_retail`.
-2. Download the CSV files from the Kaggle dataset above and place them in a `dataset/` folder at the repository root.
-3. From the repository root, run the scripts in order:
+---
 
-```bash
-psql -U your_username -d apple_retail -f sql/schema.sql
-psql -U your_username -d apple_retail -f sql/data_quality_checks.sql
-psql -U your_username -d apple_retail -f sql/eda.sql
-psql -U your_username -d apple_retail -f sql/business_analysis.sql
-```
+## 🧮 SQL analysis
 
-`schema.sql` creates the tables, loads the CSVs, and builds the indexes used by the later queries.
+### 📁 Core SQL files
 
-## Data Quality Checks
+- [`sql/schema.sql`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/sql/schema.sql) — creates the database schema, loads data, and defines index strategy
+- [`sql/data_quality_check.sql`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/sql/data_quality_check.sql) — validates integrity and consistency
+- [`sql/eda.sql`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/sql/eda.sql) — exploratory analysis and descriptive summaries
+- [`sql/business_analysis.sql`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/sql/business_analysis.sql) — business questions and portfolio-level investigations
+- `sql/actuarial_risk_queries.sql` — extended risk and claim analysis layer
 
-Before trusting any analysis, `data_quality_checks.sql` validates the dataset for:
+### ❓ Business questions solved
 
-- Duplicate primary keys
-- Orphaned foreign keys (sales/warranty rows referencing non-existent stores, products, or sales)
-- Invalid quantities (zero, negative, or NULL)
-- Invalid prices (zero, negative, or NULL)
-- Warranty claims dated before their corresponding sale
-- Sales dated before a product's launch date
-- Missing store or category fields
-- Sale dates outside a plausible range (e.g. future-dated records)
+The project includes analysis for:
 
-Each check should return zero rows on a clean dataset; any rows returned flag a specific issue to investigate before proceeding to EDA or business analysis.
+1. Top-performing stores by country
+2. Year-over-year store growth
+3. Stores with elevated claim risk
+4. Revenue contribution by category
+5. Top products by country
+6. Sales and warranty behavior by price range
+7. Monthly sales trends by store
+8. Best and worst sales months by country
+9. Above-average sales seasonality
+10. Warranty claim timing after purchase
+11. Highest claim-rate products using exposure-aware thresholds
+12. Category-level warranty risk comparison
+13. Product lifecycle sales review
+14. Product lifecycle warranty risk review
 
-## Exploratory Data Analysis
+## 🐍 Python analysis
 
-`eda.sql` covers:
+The Python analysis extends the project further with a risk-focused layer designed for stronger business interpretation.
 
-- Record counts across all tables
-- Store distribution by country and city
-- Product distribution by category
-- Product price statistics
-- Products launched by year
-- Yearly sales volume
-- Warranty claims by repair status
+### ⚙️ Python workflow includes
 
-## Business Problems Solved
+- portfolio summary generation
+- category and product benchmark comparison
+- store and country risk review
+- claim timing distribution analysis
+- lifecycle-stage review
+- monthly trend interpretation
+- relative risk scoring vs. the portfolio baseline
+- stress test scenarios for adverse claim growth
+- output generation for decision support reporting
 
-`business_analysis.sql` includes an overall KPI summary query plus **14 business questions** covering store performance, sales trends, product performance, pricing, and warranty analysis.
+### 📄 Main Python file
 
-### Store & Sales Performance
+- `python/actuarial_internship_analysis.py`
 
-1. **Top-performing stores by country** — Identify the top-performing store in each country based on total units sold, and rank all stores within their respective countries.
-2. **Year-over-year store growth** — Analyze the year-over-year growth in units sold for each store and identify stores showing consistent growth or decline over time.
-3. **Stores with higher warranty risk** — Identify stores with warranty claim rates significantly higher than the overall company-wide claim rate, and compare their sales volume against their warranty risk.
-4. **Revenue contribution by category** — Determine the revenue contribution of each product category and identify which categories generate the largest share of total sales revenue.
-5. **Top 3 products by country** — Identify the top three best-selling products in each country based on total units sold, and compare product performance across different markets.
-6. **Sales and warranty performance by price range** — Segment products into price ranges and analyze how product pricing relates to sales volume and warranty claim frequency.
-7. **Monthly store sales trends** — Calculate the monthly sales performance of each store over the last four years, including running totals and month-over-month growth rates.
-8. **Best and worst sales months** — For each country and year, identify the best and worst-performing sales months based on total units sold.
-9. **Above-average sales months** — Identify months that consistently generate above-average sales within each country and determine whether specific seasonal patterns exist across different markets.
+---
 
-### Warranty & Product Analysis
+## ✅ Data quality and validation
 
-10. **Warranty claim timing** — Analyze the timing of warranty claims by calculating what percentage of claims are filed within 30, 90, 180, and 365 days after the original purchase.
-11. **Highest warranty claim-rate products** — Identify the top 10 products with the highest warranty claim rates while applying a minimum sales-volume threshold (100+ sales) to avoid misleading results from low-volume products.
-12. **Warranty risk by category** — Compare warranty claim rates across product categories.
-13. **Product lifecycle sales analysis** — Analyze product sales trends over time, segmented into 0–6, 6–12, 12–18, and 18+ months since launch.
-14. **Product lifecycle warranty risk** — Analyze warranty claim behavior across the same product lifecycle stages.
+Before analysis, the project validates the data to catch issues that could distort conclusions.
 
-## Key Findings
+### 🔍 Validation checks include
 
-- **Total revenue** across 1,040,200 sales transactions: **$6,166,293,030.00**
-- **Overall warranty claim rate:** **2.88%** (30,000 claims across 1,040,200 sales)
-- **Most recent year (2024) revenue growth:** **-12.68%** year-over-year
-- **Warranty claim timing:** only **1.97%** of claims are filed within 30 days of purchase, but this climbs to **5.75%** within 90 days, **11.15%** within 180 days, and **22.22%** within a full year — claims accumulate steadily rather than clustering right after purchase.
-- **Product lifecycle warranty risk:** claim rates are close across all stages (2.85%–2.91%), but **12-18 months after launch is the highest-risk window at 2.91%**, not the launch period itself — products don't show meaningfully more early-life defects in this dataset.
-- **Product lifecycle sales:** the 18+ months stage accounts for the largest share of transactions and units sold (276,393 transactions / 1,521,084 units), which reflects the dataset's multi-year window giving older products more cumulative time on shelves rather than necessarily stronger per-product demand.
-- **Top revenue-generating category:** the leading product category contributed **$953,443,623.00**, or **15.46%** of total revenue.
-- **Best-performing market by units sold:** **Australia** led all countries in total units sold.
+- duplicate keys
+- orphaned relationships
+- invalid quantities and pricing
+- missing data fields
+- claims dated before their sales
+- sales happening before product launch
+- out-of-range dates
+- inconsistent values that would affect reporting quality
 
-## Selected Query Results
+This adds rigor and makes the project more trustworthy for decision-oriented analysis.
 
-### Q0 — Overall KPI Summary
+---
 
-A single-query snapshot of total revenue, total units sold, overall warranty claim rate, and most recent year's revenue growth.
+## 📊 Key findings
 
-![Q0 Result](screenshots/q0_result.png)
+The project highlights several meaningful findings from the dataset:
 
-### Q7 — Monthly Sales Trends
+- Total sales: 1,040,200
+- Total claims: 30,000
+- Overall claim rate: 2.88%
+- Highest-risk category: Smart Speaker
+- Highest-risk product: MacBook Pro (Touch Bar)
+- Highest-risk lifecycle stage: 12–18 months
+- Claims rise steadily in the first year rather than only appearing immediately after purchase
+- Risk is unevenly distributed across the portfolio, so segment-level analysis is important
 
-Calculate monthly sales performance for each store over the last four years, including running totals and month-over-month growth.
+These findings help convert raw data into strategic insight rather than just descriptive reporting.
 
-![Q7 Result](screenshots/q7_result.png)
+---
 
-### Q10 — Warranty Claim Timing
+## 🧰 Technical methods used
 
-Analyze how quickly warranty claims are filed after a purchase and calculate the percentage of claims filed within different time periods.
+This project applies a range of practical analytical techniques:
 
-![Q10 Result](screenshots/q10_result.png)
+- `JOIN` operations for relationship-based analysis
+- `GROUP BY` and aggregation for KPI creation
+- `CASE` logic for segmentation
+- subqueries and CTEs for layered analysis
+- window functions and ranking logic
+- time-based calculations for trends and lifecycle review
+- claim-rate benchmarking against the portfolio average
+- performance-aware indexing for larger analytical workloads
 
-### Q13 — Product Lifecycle Sales
+---
 
-Analyze product sales performance across different stages of the product lifecycle: 0–6, 6–12, 12–18, and 18+ months.
+## ⚡ Performance and optimization
 
-![Q13 Result](screenshots/q13_result.png)
+Because the dataset is large, performance was considered as part of the design.
 
-### Q14 — Product Lifecycle Warranty Risk
-
-Analyze whether warranty claim behavior changes depending on how long a product has been on the market.
-
-![Q14 Result](screenshots/q14_result.png)
-
-## SQL Techniques Used
-
-- `JOIN` (inner, left, cross)
-- `GROUP BY` / `HAVING`
-- Aggregate functions
-- `CASE` statements
-- Subqueries and correlated subqueries
-- Common Table Expressions (CTEs), including multi-CTE chains
-- Window functions: `RANK()`, `ROW_NUMBER()`, `LAG()`, running totals via `SUM() OVER()`
-- Year-over-year and month-over-month growth calculations
-- Date/interval calculations and filtering
-- Conditional aggregation (`FILTER`)
-- Data segmentation (price tiers, lifecycle stages)
-- Revenue and warranty-rate calculations
-- Data validation queries (duplicates, orphaned keys, invalid values, out-of-range dates)
-
-## Performance Optimization
-
-Because the dataset contains **1 million+ sales records**, query performance was considered as part of the project.
-
-`schema.sql` creates indexes on the columns most frequently used in joins and filters:
+### 🧱 Indexing included on key columns
 
 - `sales(product_id)`
 - `sales(store_id)`
@@ -188,26 +322,75 @@ Because the dataset contains **1 million+ sales records**, query performance was
 - `warranty(sale_id)`
 - `warranty(claim_date)`
 
-Query execution plans were evaluated using PostgreSQL's `EXPLAIN ANALYZE` — see the example at the bottom of `schema.sql`, which compares planner behavior on a representative filtered/grouped query before and after indexing.
+This makes the project more realistic and demonstrates attention to query efficiency on larger volumes.
 
-## Project Structure
+---
+
+## 🚀 Run the project
+
+### 1️⃣ Create the database
+
+```bash
+createdb apple_retail
+```
+
+### 2️⃣ Load and validate data
+
+```bash
+psql -U your_username -d apple_retail -f sql/schema.sql
+psql -U your_username -d apple_retail -f sql/data_quality_check.sql
+```
+
+### 3️⃣ Run EDA and business analysis
+
+```bash
+psql -U your_username -d apple_retail -f sql/eda.sql
+psql -U your_username -d apple_retail -f sql/business_analysis.sql
+```
+
+### 4️⃣ Run the Python analysis extension
+
+```bash
+pip install pandas
+python python/actuarial_internship_analysis.py
+```
+
+This generates the output tables in the `outputs/` folder.
+
+
+## 📂 Project structure
+
+> **Repository note:** Download the Kaggle CSV files and place them in `dataset/` locally before running `sql/schema.sql`.
 
 ```text
-apple-retail-sales-sql-analysis/
-│
+Consumer-Electronics-Retail-Sales-Warranty-Analytics/
+├── README.md
 ├── dataset/
 │   ├── stores.csv
 │   ├── category.csv
 │   ├── products.csv
 │   ├── sales.csv
 │   └── warranty.csv
-│
 ├── sql/
 │   ├── schema.sql
-│   ├── data_quality_checks.sql
+│   ├── data_quality_check.sql
 │   ├── eda.sql
-│   └── business_analysis.sql
-│
+│   ├── business_analysis.sql
+│   └── actuarial_risk_queries.sql
+├── python/
+│   └── actuarial_internship_analysis.py
+├── outputs/
+│   ├── actuarial_summary.csv
+│   ├── risk_by_category.csv
+│   ├── top_risky_products.csv
+│   ├── risk_by_store.csv
+│   ├── risk_by_country.csv
+│   ├── risk_by_price_segment.csv
+│   ├── risk_by_lifecycle_stage.csv
+│   ├── monthly_claim_trends.csv
+│   ├── claim_timing.csv
+│   ├── risk_score_summary.csv
+│   └── stress_test_results.csv
 ├── screenshots/
 │   ├── project_banner.png
 │   ├── q0_result.png
@@ -215,27 +398,13 @@ apple-retail-sales-sql-analysis/
 │   ├── q10_result.png
 │   ├── q13_result.png
 │   └── q14_result.png
-│
-└── README.md
+└── ...
 ```
 
-## Known Limitations
+---
 
-- **Revenue calculations use current catalog price**, not a historical price-at-time-of-sale value, since the dataset has no price-history table. Revenue trends should be read as directional, not exact.
-- **Monthly trend queries (Q7) do not synthesize zero-sales months** — a store/month combination with no sales simply has no row, so month-over-month growth after a gap reflects the jump from the last active month rather than a true 0% baseline.
-- This is a third-party retail-style dataset intended for SQL practice, not official Apple sales figures.
+---
 
-## Key Takeaways
-
-This project demonstrates how SQL can be used beyond basic querying to validate data quality and perform practical business analysis on a large retail dataset — covering:
-
-- Data validation before analysis (duplicates, orphaned keys, invalid values)
-- Store performance across different markets
-- Product sales and revenue contribution
-- Sales growth and seasonal patterns
-- Product pricing and sales performance
-- Warranty claim behavior and timing
-- Product lifecycle performance
-- Query optimization for large datasets
-
-The complete SQL for schema setup, data validation, EDA, and all 14 business problems is available in the [`sql`](sql/) directory.
+<p align="center">
+  <strong>Retail analytics focused on data quality, business insight, and decision support.</strong>
+</p>
