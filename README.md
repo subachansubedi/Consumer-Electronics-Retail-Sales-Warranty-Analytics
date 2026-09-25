@@ -1,16 +1,13 @@
 <div align="center">
 
 <img src="screenshots/project_banner.png" alt="Retail Sales and Warranty Analytics banner" width="100%">
-
 # 📊 Consumer Electronics Retail Sales & Warranty Analytics
-
 <p align="center">
   <img src="https://img.shields.io/badge/Domain-Retail%20Analytics-0EA5E9?style=for-the-badge&logo=database&logoColor=white" alt="Retail Analytics">
   <img src="https://img.shields.io/badge/Skills-SQL%20%2B%20Python-FFB000?style=for-the-badge&logo=python&logoColor=white" alt="SQL + Python">
   <img src="https://img.shields.io/badge/Focus-Actuarial%20Analysis-10B981?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Actuarial Analysis">
   <img src="https://img.shields.io/badge/Portfolio-Decision%20Support-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Decision Support">
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/SQL-0EA5E9?style=flat-square&logo=database&logoColor=white" alt="SQL">
@@ -19,13 +16,11 @@
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
   <img src="https://img.shields.io/badge/Data%20Analysis-10B981?style=flat-square&logo=chartdotjs&logoColor=white" alt="Data Analysis">
 </p>
-
 <p align="center">
   <a href="https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics"><img src="https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white" alt="View Repository"></a>
   <a href="https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/tree/main/sql"><img src="https://img.shields.io/badge/Browse-SQL-2563EB?style=flat-square&logo=postgresql&logoColor=white" alt="Browse SQL"></a>
   <a href="https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/tree/main/screenshots"><img src="https://img.shields.io/badge/View-Screenshots-0F766E?style=flat-square&logo=files&logoColor=white" alt="View Screenshots"></a>
 </p>
-
 <p align="center">
   <strong>Retail sales intelligence, product performance, warranty behavior, and actuarial-style risk analysis</strong>
 </p>
@@ -33,7 +28,6 @@
 </div>
 
 ---
-
 ## 🧭 Project at a glance
 
 <table>
@@ -45,7 +39,6 @@
 <p>This project combines SQL, data analysis, and business-focused problem solving using a practical retail analytics case study.</p>
 
 <p><strong>The project covers:</strong></p>
-
 <ul>
 <li>Database setup, data validation, and exploration</li>
 <li>SQL-based analysis of products, stores, sales, and performance</li>
@@ -55,7 +48,6 @@
 <li>Generation of analysis outputs for reporting</li>
 <li>Translation of data findings into practical business insights</li>
 </ul>
-
 <p>The analysis is designed to demonstrate how structured data can be used to understand retail performance, identify operational patterns, and support data-driven decision-making.</p>
 
 </td>
@@ -64,7 +56,6 @@
 <h3>🎓 What This Project Demonstrates</h3>
 
 <p>The project demonstrates practical experience with:</p>
-
 <ul>
 <li>Relational databases and SQL</li>
 <li>Data cleaning and validation</li>
@@ -82,7 +73,6 @@
 
 <tr>
 <td colspan="2" valign="top">
-
 <h3>🔄 Project Scope</h3>
 
 <p>Rather than focusing only on SQL queries, this project follows a complete analytics workflow:</p>
@@ -96,11 +86,9 @@
 </table>
 
 ---
-
 ## 🧭 Quick access
 
 [Overview](#-overview) • [Dataset](#-dataset) • [Project scope](#-project-scope) • [SQL analysis](#-sql-analysis) • [Python analysis](#-python-analysis) • [Business questions](#-business-questions-solved) • [Key findings](#-key-findings) • [Run project](#-run-the-project) • [Project files](#-project-structure)
-
 <p align="center">
   <a href="#-overview"><img src="https://img.shields.io/badge/Overview-0EA5E9?style=for-the-badge" alt="Overview"></a>
   <a href="#-dataset"><img src="https://img.shields.io/badge/Dataset-0891B2?style=for-the-badge" alt="Dataset"></a>
@@ -110,14 +98,13 @@
   <a href="#-run-the-project"><img src="https://img.shields.io/badge/Run%20Project-475569?style=for-the-badge" alt="Run Project"></a>
 </p>
 
----
 
+---
 ## 📌 Overview
 
 This project is a retail analytics and actuarial-style risk analysis portfolio project built around a large consumer electronics dataset. It combines data validation, SQL-based business analysis, and Python-based risk and trend analysis to turn raw transaction data into a structured business and risk story.
 
 The project covers the full analytics workflow:
-
 - load and validate a large dataset
 - model the schema and relationships
 - explore product and store performance
@@ -127,7 +114,6 @@ The project covers the full analytics workflow:
 - create a polished, business-ready analytics package
 
 ---
-
 ## 💡 Why this project matters
 
 This project helps to answer the important questions like:
@@ -139,7 +125,6 @@ This project helps to answer the important questions like:
 - What happens under moderate adverse claim scenarios?
 
 ---
-
 ## 🗂️ Dataset
 
 The project uses a retail-style Apple electronics dataset containing product, sales, store, and warranty information.
@@ -152,7 +137,6 @@ The project uses a retail-style Apple electronics dataset containing product, sa
 - Time period: multi-year sales history through 2024
 - Geography: multiple countries
 - Data types: stores, category, products, sales, warranty claims
-
 ### 📈 Portfolio baseline
 
 <p align="center">
@@ -162,7 +146,6 @@ The project uses a retail-style Apple electronics dataset containing product, sa
 </p>
 
 ---
-
 ## 🎯 Project scope
 
 The project has two complementary layers:
@@ -173,7 +156,7 @@ The project has two complementary layers:
 - store, product, and sales analysis
 - business question solving with SQL
 
-### 🛡️ 2) Actuarial analysis extension
+### 🛡️ 2) Actuarial analysis 
 - claim-rate benchmarking
 - exposure-based comparison
 - lifecycle and claim timing review
@@ -181,7 +164,6 @@ The project has two complementary layers:
 - Python-generated analysis outputs for portfolio reporting
 
 ---
-
 ## 🗃️ Database design
 
 The project uses a relational schema with five core tables:
@@ -193,7 +175,6 @@ The project uses a relational schema with five core tables:
 | `products` | Product details, pricing, and launch date |
 | `sales` | Transaction-level sales data |
 | `warranty` | Claim records and claim dates |
-
 ### 🔗 Relationship model
 
 ```text
@@ -209,19 +190,15 @@ This structure allows business questions to be answered through joins, segmentat
 ---
 
 ## 🧮 SQL analysis
-
 ### 📁 Core SQL files
-
 - [`sql/schema.sql`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/sql/schema.sql) — creates the database schema, loads data, and defines index strategy
 - [`sql/data_quality_check.sql`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/sql/data_quality_check.sql) — validates integrity and consistency
 - [`sql/eda.sql`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/sql/eda.sql) — exploratory analysis and descriptive summaries
 - [`sql/business_analysis.sql`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/sql/business_analysis.sql) — business questions and portfolio-level investigations
-- `sql/actuarial_risk_queries.sql` — extended risk and claim analysis layer
-
+- [`actuarial-risk-analysis/sql/actuarial_risk_queries.sql`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/actuarial-risk-analysis/sql/actuarial_risk_queries.sql) — extended risk and claim analysis layer
 ### ❓ Business questions solved
 
 The project includes analysis for:
-
 1. Top-performing stores by country
 2. Year-over-year store growth
 3. Stores with elevated claim risk
@@ -236,11 +213,9 @@ The project includes analysis for:
 12. Category-level warranty risk comparison
 13. Product lifecycle sales review
 14. Product lifecycle warranty risk review
-
 ## 🐍 Python analysis
 
 The Python analysis extends the project further with a risk-focused layer designed for stronger business interpretation.
-
 ### ⚙️ Python workflow includes
 
 - portfolio summary generation
@@ -255,7 +230,7 @@ The Python analysis extends the project further with a risk-focused layer design
 
 ### 📄 Main Python file
 
-- `python/actuarial_internship_analysis.py`
+- [`actuarial-risk-analysis/python/actuarial_internship_analysis.py`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/blob/main/actuarial-risk-analysis/python/actuarial_internship_analysis.py)
 
 ---
 
@@ -277,7 +252,6 @@ Before analysis, the project validates the data to catch issues that could disto
 This adds rigor and makes the project more trustworthy for decision-oriented analysis.
 
 ---
-
 ## 📊 Key findings
 
 The project highlights several meaningful findings from the dataset:
@@ -290,11 +264,9 @@ The project highlights several meaningful findings from the dataset:
 - Highest-risk lifecycle stage: 12–18 months
 - Claims rise steadily in the first year rather than only appearing immediately after purchase
 - Risk is unevenly distributed across the portfolio, so segment-level analysis is important
-
 These findings help convert raw data into strategic insight rather than just descriptive reporting.
 
 ---
-
 ## 🧰 Technical methods used
 
 This project applies a range of practical analytical techniques:
@@ -309,7 +281,6 @@ This project applies a range of practical analytical techniques:
 - performance-aware indexing for larger analytical workloads
 
 ---
-
 ## ⚡ Performance and optimization
 
 Because the dataset is large, performance was considered as part of the design.
@@ -333,7 +304,6 @@ This makes the project more realistic and demonstrates attention to query effici
 ```bash
 createdb apple_retail
 ```
-
 ### 2️⃣ Load and validate data
 
 ```bash
@@ -347,50 +317,39 @@ psql -U your_username -d apple_retail -f sql/data_quality_check.sql
 psql -U your_username -d apple_retail -f sql/eda.sql
 psql -U your_username -d apple_retail -f sql/business_analysis.sql
 ```
-
 ### 4️⃣ Run the Python analysis extension
 
 ```bash
 pip install pandas
-python python/actuarial_internship_analysis.py
+python actuarial-risk-analysis/python/actuarial_internship_analysis.py
 ```
 
-This generates the output tables in the `outputs/` folder.
-
-
+When run from the repository root, the Python script reads the CSV files from the root `dataset/` folder and generates output tables in a root-level `outputs/` folder. The committed example outputs are stored in [`actuarial-risk-analysis/outputs/`](https://github.com/subachansubedi/Consumer-Electronics-Retail-Sales-Warranty-Analytics/tree/main/actuarial-risk-analysis/outputs).
 ## 📂 Project structure
 
 > **Repository note:** Download the Kaggle CSV files and place them in `dataset/` locally before running `sql/schema.sql`.
-
 ```text
 Consumer-Electronics-Retail-Sales-Warranty-Analytics/
 ├── README.md
-├── dataset/
-│   ├── stores.csv
-│   ├── category.csv
-│   ├── products.csv
-│   ├── sales.csv
-│   └── warranty.csv
-├── sql/
-│   ├── schema.sql
-│   ├── data_quality_check.sql
-│   ├── eda.sql
-│   ├── business_analysis.sql
-│   └── actuarial_risk_queries.sql
-├── python/
-│   └── actuarial_internship_analysis.py
-├── outputs/
-│   ├── actuarial_summary.csv
-│   ├── risk_by_category.csv
-│   ├── top_risky_products.csv
-│   ├── risk_by_store.csv
-│   ├── risk_by_country.csv
-│   ├── risk_by_price_segment.csv
-│   ├── risk_by_lifecycle_stage.csv
-│   ├── monthly_claim_trends.csv
-│   ├── claim_timing.csv
-│   ├── risk_score_summary.csv
-│   └── stress_test_results.csv
+├── .gitignore
+├── actuarial-risk-analysis/
+│   ├── README.md
+│   ├── outputs/
+│   │   ├── actuarial_summary.csv
+│   │   ├── risk_by_category.csv
+│   │   ├── top_risky_products.csv
+│   │   ├── risk_by_store.csv
+│   │   ├── risk_by_country.csv
+│   │   ├── risk_by_price_segment.csv
+│   │   ├── risk_by_lifecycle_stage.csv
+│   │   ├── monthly_claim_trends.csv
+│   │   ├── claim_timing.csv
+│   │   ├── risk_score_summary.csv
+│   │   └── stress_test_results.csv
+│   ├── python/
+│   │   └── actuarial_internship_analysis.py
+│   └── sql/
+│       └── actuarial_risk_queries.sql
 ├── screenshots/
 │   ├── project_banner.png
 │   ├── q0_result.png
@@ -398,9 +357,18 @@ Consumer-Electronics-Retail-Sales-Warranty-Analytics/
 │   ├── q10_result.png
 │   ├── q13_result.png
 │   └── q14_result.png
-└── ...
+├── sql/
+│   ├── schema.sql
+│   ├── data_quality_check.sql
+│   ├── eda.sql
+│   └── business_analysis.sql
+└── dataset/                        
+    ├── stores.csv
+    ├── category.csv
+    ├── products.csv
+    ├── sales.csv
+    └── warranty.csv
 ```
-
 ---
 
 ---
